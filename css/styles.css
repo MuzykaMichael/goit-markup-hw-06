@@ -763,3 +763,59 @@ img {
     fill: tomato;
     border: 1px solid red;
 }
+
+.head-form {
+}
+.contact-form {
+    display:flex;
+    flex-direction: column;
+    gap:8px;
+}
+.name-form {
+    display: flex;
+    flex-direction: column;
+    gap:4px;
+}
+.tel-form {
+    display: flex;
+    flex-direction: column;
+    gap:4px;
+}
+.email-form {
+    display: flex;
+    flex-direction: column;
+    gap:4px;
+}
+.comment-form {
+    display: flex;
+    flex-direction: column;
+    gap:4px;
+}
+.privacy-form {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 8px;
+}
+.input-name-form {
+
+
+}
+.input-name-form:focus {
+
+
+}
+.input-tel-form {
+
+}
+.input-email-form {
+
+}
+.input-comment-form {
+
+    
+}
+.input-privacy-form {
+}
+
+.button-form {
+}
