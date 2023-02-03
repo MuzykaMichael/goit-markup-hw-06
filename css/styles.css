@@ -754,7 +754,8 @@ img {
     display: flex;
     margin-left: auto;
     align-items: center;
-    justify-content: center;    
+    justify-content: center;
+    margin-bottom: 20px;    
 }
 
 .modal-close:hover,
@@ -765,54 +766,103 @@ img {
 }
 
 .head-form {
+    margin-bottom: 16px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    
+    text-align: center;
+    letter-spacing: 0.02em;
+    
+    /* NAVY BLUE */
+    
+    color: #2E2F42;
 }
+
 .contact-form {
-    display:flex;
-    flex-direction: column;
-    gap:8px;
 }
 .name-form {
-    display: flex;
-    flex-direction: column;
-    gap:4px;
 }
 .tel-form {
-    display: flex;
-    flex-direction: column;
-    gap:4px;
 }
 .email-form {
-    display: flex;
-    flex-direction: column;
-    gap:4px;
 }
 .comment-form {
-    display: flex;
-    flex-direction: column;
-    gap:4px;
 }
 .privacy-form {
-    display: flex;
-    flex-direction: row-reverse;
-    gap: 8px;
+
 }
 .input-name-form {
-
+    width: 100%;
+    height: 40px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+    padding-left:38px;
+    line-height: 16px;  
+    letter-spacing: 0.04em;
+    outline: transparent;
+}
+.modal-field {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    margin-bottom: 8px;
+}
+.input-wrap {
+    position: relative;
+}
+.modal-input-icon {
+    position: absolute;
+    left:16px;
+    top:50%;
+    transform: translateY(-50%);
 
 }
+.input-form:focus + .modal-input-icon,
+.input-name-form:focus + .modal-input-icon {
+    fill: #4D5AE5;
+}
+.input-form:focus,
 .input-name-form:focus {
-
-
+    border: 1px solid #4D5AE5;
+    border-radius: 4px;
 }
-.input-tel-form {
-
-}
-.input-email-form {
+.input-form {
+    width: 100%;
+    height: 40px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+    outline: transparent;
+    padding-left:38px;
+    line-height: 14px;  
+    letter-spacing: 0.01em; 
 
 }
 .input-comment-form {
+    width: 100%;
+    height: 120px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+    outline: transparent;
+    padding: 8px 16px;
+    resize: none;
+    line-height: 14px;  
+    letter-spacing: 0.01em;
+}
+.input-comment-form::placeholder {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+/* identical to box height, or 133% */
 
-    
+    letter-spacing: 0.04em;
+
+    color: rgba(117, 117, 117, 0.5);
 }
 .input-privacy-form {
 }
