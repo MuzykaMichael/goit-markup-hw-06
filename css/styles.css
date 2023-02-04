@@ -478,14 +478,13 @@ img {
 .footer-container {
     display:flex;
     flex-direction:row;
-    gap: 120px;
 }
 .footer-info-column {
     margin-right:120px;
     display:flex;
     flex-direction: column;
     width:264px;
-    margin-right: 0px;
+    margin-right: 120px;
 }
 .footer-logo {
     text-decoration: none;
@@ -542,6 +541,7 @@ img {
 .footer-social-column {
     display:flex;
     flex-direction:column;
+    margin-right: 80px;
 }
 .footer-social-header {
     margin-bottom:16px;
@@ -783,16 +783,79 @@ img {
 }
 
 .contact-form {
+
 }
 .name-form {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    /* identical to box height, or 133% */
+    
+    letter-spacing: 0.04em;
+    
+    /* LIGHT SLATE */
+    
+    color: #8E8F99;
 }
 .tel-form {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    /* identical to box height */
+    
+    letter-spacing: 0.01em;
+    
+    /* LIGHT SLATE */
+    
+    color: #8E8F99;
+    
 }
 .email-form {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    /* identical to box height */
+    
+    letter-spacing: 0.01em;
+    
+    /* LIGHT SLATE */
+    
+    color: #8E8F99;
+    
 }
 .comment-form {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    /* identical to box height */
+    
+    letter-spacing: 0.01em;
+    
+    /* LIGHT SLATE */
+    
+    color: #8E8F99;
+    
 }
 .privacy-form {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    /* identical to box height, or 133% */
+    
+    letter-spacing: 0.04em;
+    
+    color: #757575;
+    
 
 }
 .input-name-form {
@@ -961,40 +1024,32 @@ img {
     border: 1px solid rgba(255, 255, 255, 0.3);
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     border-radius: 4px;
-    padding: 8px 0px 8px 16px;
+    padding: 8px 8px 8px 16px;
     background-color: transparent;
     outline: none;
-    margin-right: 24px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
     line-height: 24px;
     /* identical to box height, or 200% */
-    
     letter-spacing: 0.04em;
-    
+    margin-right: 24px;
     color: #FFFFFF;
+    width:264px;
+    
 }
 .footer-mail::placeholder {
     color: rgba(255, 255, 255, 0.6);
 }
 .footer-form {
+    display:flex;
 }
 .footer-button {
     padding: 8px 24px;
     border:none;
     background: #4D5AE5;
     border-radius: 4px;
-    transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), border-radius 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.footer-button:hover,
-.footer-button:focus {
-    background: #404BBF;
-    box-shadow: inset 0px 0px 12px rgba(0, 0, 0, 0.05);
-    border-radius: 8px;
-}
-.button-idea {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -1005,13 +1060,20 @@ img {
     display: flex;
     align-items: center;
     text-align: center;
+    gap: 16px;
     letter-spacing: 0.04em;
     
     color: #FFFFFF;
-    display:flex;
-    flex-direction:row;
-    gap: 16px;
+    transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), border-radius 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.footer-button:hover,
+.footer-button:focus {
+    background: #404BBF;
+    box-shadow: inset 0px 0px 12px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+}
+
 .button-icon {
     fill:#FFFFFF;
+
 }
